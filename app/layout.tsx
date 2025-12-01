@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { ThemeProvider } from './components/theme-provider'
-import { ModeToggle } from './components/mode-toggle'
-import { Button } from './components/ui/button'
+import { ThemeProvider } from '@/components/theme-provider'
+import { ModeToggle } from '@/components/mode-toggle'
+import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
   title: 'shadcn next starter',
