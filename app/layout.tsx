@@ -20,11 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <>
-      <html lang="en" suppressHydrationWarning>
+      <html
+        lang="en"
+        suppressHydrationWarning
+        className={`${inter.variable} ${firaCode.variable} font-sans antialiased`}
+      >
         <head />
-        <body
-          className={`${inter.variable} ${firaCode.variable} font-sans antialiased`}
-        >
+        <body>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
