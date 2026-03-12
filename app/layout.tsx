@@ -1,5 +1,9 @@
 import type { Metadata } from 'next'
+import { Inter, Fira_Code } from 'next/font/google'
 import './globals.css'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
+const firaCode = Fira_Code({ subsets: ['latin'], variable: '--font-mono' })
 import { ThemeProvider } from '@/components/theme-provider'
 import { ModeToggle } from '@/components/mode-toggle'
 import { Button } from '@/components/ui/button'
@@ -18,7 +22,7 @@ export default function RootLayout({
     <>
       <html lang="en" suppressHydrationWarning>
         <head />
-        <body>
+        <body className={`${inter.variable} ${firaCode.variable} font-sans antialiased`}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
