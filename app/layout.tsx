@@ -44,7 +44,7 @@ export default function RootLayout({
                   asChild
                 >
                   <a
-                    href="https://github.com/tlyboys/shadcn-next-starter"
+                    href="https://github.com/tlyboy/shadcn-next-starter"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
