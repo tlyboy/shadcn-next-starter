@@ -47,6 +47,7 @@ export default function RootLayout({
                       href="https://github.com/tlyboy/shadcn-next-starter"
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="GitHub"
                     />
                   }
                 >
