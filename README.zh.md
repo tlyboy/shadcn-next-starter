@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npx degit tlyboy/shadcn-next-starter my-project
+npx giget gh:tlyboy/shadcn-next-starter my-project
 ```
 
 ## 使用说明
