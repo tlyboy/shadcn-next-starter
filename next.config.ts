@@ -13,11 +13,6 @@ const nextConfig: NextConfig = {
     },
   },
   reactCompiler: true,
-  experimental: {
-    // Rust port of the React Compiler — runs natively in Turbopack instead of
-    // going through Babel, so babel-plugin-react-compiler is no longer needed.
-    turbopackRustReactCompiler: true,
-  },
 }
 
 export default nextConfig

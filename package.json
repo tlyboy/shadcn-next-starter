@@ -17,14 +17,15 @@
     "lucide-react": "^1.65.0",
     "next": "16.4.3",
     "next-themes": "^0.4.6",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4.3.3",
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "babel-plugin-react-compiler": "1.0.0",
     "oxfmt": "0.72.0",
     "oxlint": "^1.90.0",
     "shadcn": "^4.23.0",
